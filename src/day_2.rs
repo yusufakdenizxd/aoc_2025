@@ -9,8 +9,8 @@ pub fn solve() {
         sum1 += get_invalid_sum_in_range_part1(start, end);
         sum2 += get_invalid_sum_in_range_part2(start, end);
     }
-    println!("Part 1 is {}", sum1);
-    println!("Part 2 is {}", sum2);
+    println!("Day 2 Part 1 is {}", sum1);
+    println!("Day 2 Part 2 is {}", sum2);
 }
 
 fn get_invalid_sum_in_range_part1(start: usize, end: usize) -> usize {

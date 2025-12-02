@@ -17,8 +17,8 @@ pub fn solve() {
             part1_password += 1;
         }
     }
-    println!("Part1 Password is {}", part1_password);
-    println!("Part2 Password is {}", part2_password);
+    println!("Day 1 Part1 is {}", part1_password);
+    println!("Day 1 Part2 is {}", part2_password);
 }
 
 fn read_file() -> String {
